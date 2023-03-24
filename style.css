@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 }
 body{ 
-  background-color: beige;
+  background-color:#ffffff;
   color: black;
   border: 0;
   padding-inline-start: 0;
@@ -16,47 +16,26 @@ header{
   color: palevioletred;
   font-family: cursive;
   font-size: x-large;
-
-}
-.CajaPantalla
-{
   width: 100%;
-height:50vh ;
-display:flex;
-justify-content: center;
 
 }
-.CajaPantallaTexto
-{
-  width: 50%;
-  margin: 0 auto;
-}
-.CajaPantallaImagen
-{
-  width: 45%;
-  object-fit: cover;
 
-}
-.prologo{
-  color: black;
-  font-size: x-large;
-  font-weight: 300;
-  font-family: fantasy;
-  text-align: center;
-  background: #d8eee2;
-  padding: 50px;
-}
 h1
 {
   color: blueviolet;
   font-family: fantasy;
   font-size: 5rem;
   padding-bottom: 1rem;
+  text-align: center;
+  padding: 3rem;
+
 }
 h2{
   color: blue;
   font-family: monospace;
 }
+
+
 h3{
   color: forestgreen;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -72,43 +51,35 @@ a{
 }
 .cajaContenedor
 {
-width: 85%;
+width: 100%;
 padding: 1rem;
 height: auto;
 margin: 0 auto;
-display: flex;
-gap: 10px;
+display: grid;
+gap: 15px;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
-.caja1
-{
-    font-family: cursive;
-    color: #ffffff; 
+.contenedor{
     font-size: 18px; 
     font-weight: 200;  
-    background: #9099b3; 
-    overflow: hidden; 
-    border-radius: 20px; 
-    border: 2px solid #161618;
-    width: 33.333%;
     padding: 1.3rem;
+   
+}
+.contenedor img{
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100%;
   
-    
-
-  }
-  .caja1Imagen
-  {
-width: 100%;
-
-
-  }
+}
+    .contenedor p{
+      text-align: center;
+      padding: 10px;
+    }
   .Poema1
   {
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
-
   }
   .Poema1 p
   {
@@ -116,24 +87,7 @@ width: 100%;
 
   }
 
-.caja2{
-  font-family: cursive;
-    color: #ffffff; 
-    font-size: 18px; 
-    font-weight: 400; 
-    background: #9099b3; 
-    overflow: hidden; 
-    border-radius: 20px;
-    border: 2px solid #161618;
-    width: 33.333%;
-padding: 1.3rem;
-}
-.cajaImagen2
-{
-  width: 100%;
 
-
-}
 .poema2
 {
 
@@ -143,43 +97,51 @@ padding: 1.3rem;
 
 
 }
-.poema2 p
+.poema2 
 {
   text-align: center;
 
 }
-.caja3
+ 
+
+.caja3Item1
 {
   font-family: cursive;
-    color: #ffffff; 
-    font-size: 18px; 
-    font-weight: 400; 
-    background: #9099b3; 
-    overflow: hidden; 
-    border-radius: 20px; 
-    border: 2px solid #161618;
-    width: 33.333%;
-    padding: 1.3rem;
-    
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  background: #9099b3; 
+  overflow: hidden; 
+  border-radius: 20px; 
+  border: 2px solid #161618;
+  width: 100%;
+  padding: 1.3rem;
+ 
 }
-.cajaImagen3
+.cajaItem2
 {
   width: 100%;
-}
-.poema3
-{
-
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-
-
-}
-.poema3 p
-{
   text-align: center;
-
+  border-radius: 20%;
 }
-
-
+.caja5
+{
+  font-family: cursive;
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  background: #9099b3; 
+  overflow: hidden; 
+  border-radius: 20px; 
+  border: 2px solid #161618;
+  width: 100%;
+  padding: 1.3rem;
+ 
+}
+.imagencaja5
+{
+  width: 100%;
+  text-align: center;
+  border-radius: 20%;
+}
 
